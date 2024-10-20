@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>المنظومة الشمسية</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body class="bg-gray-100 text-right">
+        
+        <!-- Navbar -->
+        <nav class="bg-gray-900 text-white p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold">المنظومة الشمسية</a>
+                <ul class="hidden md:flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-500">الرئيسية</a></li>
+                    <li><a href="#" class="hover:text-blue-500">الكواكب</a></li>
+                    <li><a href="#" class="hover:text-blue-500">معلومات إضافية</a></li>
+                    <li><a href="#" class="hover:text-blue-500">تواصل معنا</a></li>
+                </ul>
+                <button class="block md:hidden text-xl"><i class="fas fa-bars"></i></button>
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <header class="relative bg-cover bg-center h-96" style="background-image: url('assets/imgs/systemsolaire.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <div class="text-center text-white">
+                    <h1 class="text-4xl font-bold mb-4">مرحبا بك في المنظومة الشمسية</h1>
+                    <p class="text-xl mb-4">اكتشف الكواكب والنجوم التي تشكل نظامنا الشمسي</p>
+                    <a href="#planets" class="px-6 py-2 bg-blue-500 rounded-full hover:bg-blue-600">استكشف الآن</a>
+                </div>
+            </div>
+        </header>
+    
+        <!-- Planets Section -->
+        <section id="planets" class="container mx-auto py-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">الكواكب في النظام الشمسي</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Planet card -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="assets/imgs/atared.jpg" alt="عطارد" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">عطارد</h3>
+                        <p class="text-gray-600">أقرب كوكب إلى الشمس.</p>
+                        <a href="otared.html" class="text-blue-500 hover:underline mt-2 block">أظهر المزيد</a>
+                    </div>
+                </div>
+    
+                <!-- More planets... (repeat structure for other planets) -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="assets/imgs/earth.jpg" alt="الأرض" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">الأرض</h3>
+                        <p class="text-gray-600">الكوكب الوحيد المعروف بوجود الحياة.</p>
+                        <a href="aredh.html" class="text-blue-500 hover:underline mt-2 block">أظهر المزيد</a>
+                    </div>
+                </div>
+    
+                <!-- Add other planets (e.g., الزهرة, المريخ, المشتري, زحل, نبتون, أورانوس) -->
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white py-6 mt-10">
+            <div class="container mx-auto text-center">
+                <p>© 2024 المنظومة الشمسية - جميع الحقوق محفوظة.</p>
+                <div class="flex justify-center space-x-4 mt-4">
+                    <a href="#" class="text-blue-600"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-blue-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-red-600"><i class="fab fa-google"></i></a>
+                    <a href="#" class="text-pink-600"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-blue-700"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    
+    </body>
+    </html>
+    
